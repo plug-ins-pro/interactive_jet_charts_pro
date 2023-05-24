@@ -1,34 +1,35 @@
 {
-  "name" : "Interactive JET Charts Pro",
-  "version" : "22.1",
-  "description" : "We love that end-users can customize Interactive Reports however we wanted to bring this functionality to JET Charts! Allow your end-users to interact with JET charts in ways they haven't before. Let them define how chart data is visualized and save customizations for future use. With Interactive JET Charts Pro you allow your end-users to download charts as images with single click, change how charts look and maintain personalized chart reports like in an interactive report!",
-  "keywords" : ["JET","charts","interactive","client-side customizations"],
-  "homepage" : "https://www.plug-ins-pro.com/",
-  "bugs" : {
-    "url" : "https://github.com/plug-ins-pro/interactive_jet_charts_pro/issues",
-    "email" : "support@plug-ins-pro.com"
-  },
-  "license" : "Commercial",
-  "commercial" : "Yes",
-  "author" : {
-    "name" : "United Codes",
-    "email" : "info@plug-ins-pro.com",
-    "url" : "https://www.united-codes.com/"
-  },
-  "repository" : {
-    "type" : "git",
-    "url" : "https://github.com/plug-ins-pro/interactive_jet_charts_pro"
-  },
- "oracle" : {
-    "versions" : ["12.x", "18.x", "19.x", "21.x"],
-    "apex" : {
-      "versions" : ["18.1.0", "18.2.0", "19.1.0", "19.2.0", "20.1.0", "20.2.0", "21.1.0", "21.2.0", "22.1.0", "22.2.0"],
-      "plugin" : {
-        "internalName" : "UNITEDCODES_INTERACTIVE_JET_CHARTS",
-        "type" : "dynamic action",
-        "demo" : "https://www.plug-ins-pro.com/ords/pluginspro_web/r/interactive_jet_charts_pro/home",
-        "previewImage" : "https://www.plug-ins-pro.com/ords/pluginspro_web/r/550/files/static/v24/jet-settings-customize.gif"
+    "name" : "Interactive JET Charts Pro",
+    "version" : "22.1",
+    "description" : "We love that end-users can customize Interactive Reports however we wanted to bring this functionality to JET Charts! Allow your end-users to interact with JET charts in ways they haven't before. Let them define how chart data is visualized and save customizations for future use. With Interactive JET Charts Pro you allow your end-users to download charts as images with single click, change how charts look and maintain personalized chart reports like in an interactive report!",
+    "keywords" : ["JET","charts","interactive","client-side customizations"],
+    "homepage" : "https://www.plug-ins-pro.com/",
+    "bugs" : {
+      "url" : "https://github.com/plug-ins-pro/interactive_jet_charts_pro/issues",
+      "email" : "support@plug-ins-pro.com"
+    },
+    "license" : "Commercial",
+    "commercial" : "Yes",
+    "author" : {
+      "name" : "United Codes",
+      "email" : "info@plug-ins-pro.com",
+      "url" : "https://www.united-codes.com/"
+    },
+    "repository" : {
+      "type" : "git",
+      "url" : "https://github.com/plug-ins-pro/interactive_jet_charts_pro"
+    },
+   "oracle" : {
+      "versions" : ["12.x", "18.x", "19.x", "21.x"],
+      "apex" : {
+        "versions" : ["18.1.0", "18.2.0", "19.1.0", "19.2.0", "20.1.0", "20.2.0", "21.1.0", "21.2.0", "22.1.0", "22.2.0"],
+        "plugin" : {
+          "internalName" : "UNITEDCODES_INTERACTIVE_JET_CHARTS",
+          "type" : "dynamic action",
+          "demo" : "https://www.plug-ins-pro.com/ords/pluginspro_web/r/interactive_jet_charts_pro/home",
+          "previewImage" : "https://www.plug-ins-pro.com/ords/pluginspro_web/r/550/files/static/v24/jet-settings-customize.gif"
+        }
       }
     }
   }
-}
+  
